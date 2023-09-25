@@ -7,6 +7,8 @@ function createPolygon(rsize1, rsize2, po1, po2){
     poly.resize(rsize1, rsize2);
 
     poly.position(po1, po2);
+    poly.attr('body/fill', 'grey');
+
 
     poly.attr('root/title', 'joint.shapes.standard.Polygon');
 

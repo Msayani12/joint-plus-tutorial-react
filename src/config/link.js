@@ -1,13 +1,10 @@
 import { shapes} from '@clientio/rappid';
 export {createLink, directLink}
 
-function createLink(source, target, vertices, label){
+function createLink(source, target, vertices){
     var link = new shapes.standard.Link();
     link.appendLabel({
         attrs: {
-            text: {
-                text: label
-            }
         }
     });
     link.prop('source', source);

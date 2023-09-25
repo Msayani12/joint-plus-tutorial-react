@@ -1161,10 +1161,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@clientio/rappid@C:\\Users\\sayan_xeka991\\Documents\\React Projects\\joint-plus-tutorial-react\\rappid.tgz":
+"@clientio/rappid@file:rappid_2.tgz":
   version "3.7.1"
-  resolved "file:rappid.tgz"
-  integrity sha512-eIPHGxs7VvOtIA+aFG4B+PgMVlKqSTHVXlispgOqXUlUq6I53QUOWGenFp5tY4Bs5RbGAfL0oOIdTTIx8saS7A==
+  resolved "file:rappid_2.tgz"
+  integrity sha512-8IR5tcQL6vghAC35IQG1Ap5FpJ6D0Y08mqYlpExD2EgJDDoLcFpcJRXNInGd3N2bT7o7mGZHFrVRnzRLxXkJhA==
   dependencies:
     "@types/backbone" "~1.4.13"
     "@types/dagre" "~0.7.44"
@@ -6263,6 +6263,11 @@ levn@^0.4.1:
   dependencies:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
+
+lightning-container@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/lightning-container/-/lightning-container-1.0.0.tgz"
+  integrity sha512-H0w3lv09VKMg27mRoTDJz/GKKaiw5CcXm98kb382OGlcUIzA5Tvs/4RQsCwxCGClFW4TVRJgJCyIqCKU5n3Qbg==
 
 lilconfig@^2.0.3, lilconfig@^2.0.5, lilconfig@^2.1.0:
   version "2.1.0"

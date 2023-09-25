@@ -1,16 +1,15 @@
 import { shapes} from '@clientio/rappid';
 export {createCircle}
-function createCircle(position, size,label, bodyColor, labelcolor ){
+function createCircle(position, size, bodyColor, labelcolor ){
     const circle= new shapes.standard.Circle({
         position: position,
         size: size,
         
         attrs: {
             body: {
-                fill: bodyColor
+                fill: 'lightgrey'
             },
             label: {
-                text: label,
                 fill:labelcolor
                 
             }
