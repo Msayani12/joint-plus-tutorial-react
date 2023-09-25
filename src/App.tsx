@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import LCC from 'lightning-container';
 import { dia, ui, shapes} from '@clientio/rappid';
-import './App.scss';
+import './App.scss' ;
 import {V} from '@clientio/rappid';
 import {createLines} from "../src/config/line";
 import {createRectangle} from "../src/config/rectangle";
